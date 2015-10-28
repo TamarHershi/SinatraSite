@@ -18,4 +18,8 @@ class MySite < Sinatra::Base
     erb :about
   end
 
+  get "/projects" do
+    erb :projects
+  end
+
 end
