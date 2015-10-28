@@ -3,7 +3,7 @@ require "sinatra"
 class MySite < Sinatra::Base
 
   get "/" do
-    erb :candies
+    erb :about
   end
 
   get "/candies" do
