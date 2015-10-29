@@ -1,12 +1,38 @@
-h4 {
+body {
+  font-family: fantasy;
+  font-size: 14px;
+  padding: 50px;
+  background: pink;
+}
 
+h4 {
+  color: CCCCFF;
 }
 
 .candies {
-
+  color: FF99CC;
 }
 
 table {
-border: 5px solid #006144;
-border-collapse: collapse;
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+  border: 5px solid #006144;
+  border-collapse: collapse;
+  color: CC6699;
+  text-align: center;
+  background-color: 330033;
+}
+
+#candies {
+  color: FFFFCC;
+  font-weight: bold;
+  font-size: 40px;
+  color: puprle;
+
+}
+
+#image {
+  margin-left: auto;
+  margin-right: auto;
 }

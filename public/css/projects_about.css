@@ -2,5 +2,31 @@
   text-align: center;
   font-size: 20px;
   color: #600000;
+}
 
+h1 {
+  font-size: 40px;
+  font-family: ariel;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+  font-family: monospace;
+  color: 0066CC;
+}
+
+.block {
+  display: block;
+}
+
+.fun {
+  background-color: black;
+  color: yellow;
 }
