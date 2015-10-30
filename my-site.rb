@@ -17,6 +17,7 @@ class MySite < Sinatra::Base
 
   get "/about" do
     @year = Time.new.year
+    @bday = Time.new(1984, 9, 28)
     erb :about
   end
 
