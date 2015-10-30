@@ -1,32 +1,26 @@
-<html>
-  <body>
-    <head>
-      <link href = "css/stickers_candies.css" rel="stylesheet">
-    </head>
-    <section>
+<link href = "css/stickers_candies.css" rel="stylesheet">
 
-      <a href="http://localhost:9292/about">Home</a>
-      <h1> CANDIES!!!!</h1>
-      <div>
-        <img class:"image" src="gummy_candies.jpg"/>
-      </div>
-      <p id="favorite">
-        My favorite candy today is: <strong> <%= @candies[rand(5)] %> </strong>
-      </p>
 
-      <div>
-        <h2>but I love so many more like... </h2>
-        <ul>
-          <li> White Chocolate </li>
-          <li> Cotton Candy </li>
-          <li> Gummi Candy </li>
-          <li> peanut butter Candy </li>
-          <li> Caramel Candy </li>
-        </ul>
-      </div>
-      <div>
-        <img class:"image" src="yum.jpg" />
-      </div>
-    </section>
-  </body>
-</html>
+  <section>
+    <a href="http://localhost:9292/about">Home</a>
+    <div>
+      <img class:"image" src="gummy_candies.jpg"/>
+    </div>
+    <p id="favorite">
+      My favorite candy today is: <strong> <%= @candies[rand(5)] %> </strong>
+    </p>
+
+    <div>
+      <h2>but I love so many more like... </h2>
+      <ul>
+        <li> White Chocolate </li>
+        <li> Cotton Candy </li>
+        <li> Gummi Candy </li>
+        <li> peanut butter Candy </li>
+        <li> Caramel Candy </li>
+      </ul>
+    </div>
+    <div>
+      <img class:"image" id="candy-pic" src="yum.jpg" />
+    </div>
+  </section>

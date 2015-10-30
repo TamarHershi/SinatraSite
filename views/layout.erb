@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <p class="link">
+      <a href="http://localhost:9292/stickers">What Emily loves?  |   </a>
+      <a href="http://localhost:9292/candies">What I love?   |    </a>
+      <a href="http://localhost:9292/projects">My projects  </a>
+      <a href="http://localhost:9292/about">About</a>
+      <a href="http://localhost:9292/index">Home</a>
+    </p>
+    <h1> <%= @h1 %> </h1>
+  </head>
+
+  <body>
+    <%=yield %>
+  </body>
+
+  <footer>
+    <p>Posted by: Tamar Hershenbaum</p>
+    <p>Contact information: <a href="mailto:misstamar@gmail.com">
+    misstamar@gmail.com</a>.</p>
+    <p>On Twitter: <a href="https://twitter.com/TamarHershi"> Twitter Page.</a>
+    <p> &copy; <%= @year %> </p>
+  </footer>
+
+</html>
