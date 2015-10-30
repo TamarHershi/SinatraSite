@@ -31,11 +31,14 @@ p {
   color: #0066CC;
 }
 
+#space {
+    margin-bottom: 300;
+}
+
 div {
   display: block;
   padding-top: 10;
   margin: 0 auto;
-  margin-bottom: 300;
 }
 
 .link {

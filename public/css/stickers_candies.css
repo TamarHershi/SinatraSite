@@ -3,15 +3,22 @@ body {
   margin: 0 auto;
   font-size: 14px;
   padding: 50px;
-  background: pink;
+  background: #FFCCFF;
 }
 
-h4 {
-  color: #CCCCFF;
+h2 {
+  color: #990099;
+  font-size: 18px;
 }
 
 .candies {
   color: #FF99CC;
+}
+
+#favorite {
+  font-size: 28px;
+  color: #FF0099;
+  text-align: center;
 }
 
 h1{

@@ -7,6 +7,7 @@ class MySite < Sinatra::Base
   end
 
   get "/candies" do
+    @candies = ["white chocolate", "gummy bear", "snickers", "cotton candy", "pink gum"]
     erb :candies
   end
 
