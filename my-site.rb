@@ -15,6 +15,7 @@ class MySite < Sinatra::Base
   end
 
   get "/about" do
+    @year = Time.new.year
     erb :about
   end
 
