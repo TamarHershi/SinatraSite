@@ -8,7 +8,10 @@ class MySite < Sinatra::Base
 
   get "/candies" do
     @h1 = "CANDIES!!!"
-    @candies = ["white chocolate", "gummy bear", "snickers", "cotton candy", "pink gum"]
+    @candies = ["White Chocolate", "Gummi Bear", "Snickers", "Cotton Candy", "Pink Gum", "Caramel Candy", "Peanut butter"]
+    random = rand(7)
+    @rand_candy = @candies[random]
+    @candies.delete_at(random)
     erb :candies
   end
 
