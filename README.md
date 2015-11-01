@@ -32,14 +32,3 @@ The requirements for this wave are:
   - Style your headings (`<h1>`, `<h2>`, etc.) so they are visually distinct.
   - don't use `<br>` tags to separate content; apply `margin` and `padding` where appropriate to space out content.
 
-
-Wave 3: DRY up your markup by utilizing layouts and ERB
-
-The requirements for this wave are:
-
-    Include a copyright/copyleft statement in your website footer. Utilize Ruby/ERB to ensure the year of the notice will always be current.
-    Utilize at least two additional examples where you use ERB to interpret some Ruby code within your templates
-    Extract the common elements of your html pages into a layout.
-    Change your Sinatra app to serve ERB views instead of static html (if you weren't already -- most folks were already doing this).
-    Extract your repeating <header> and <footer> code into a partial.
-    Use ERB to include your <header> and <footer> partial in your layout.
