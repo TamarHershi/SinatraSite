@@ -4,6 +4,62 @@ body {
   font-size: 14px;
   padding: 50px;
   background: #FFCCFF;
+  width: 960px;
+}
+
+#menu {
+  margin-bottom: 100;
+  height: 35px;
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 2px 3px #333333;
+  background-color: #FFFFCC;
+      border-radius: 8px;
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+}
+
+#menu ul {
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
+}
+
+#menu li {
+display: inline;
+padding: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #00F;
+    padding: 8px 8px 8px 8px;
+}
+
+
+
+
+.image #me {
+  text-align: center;
+  width: 10;
+  margin: auto;
+}
+
+#space {
+    margin-bottom: 300;
+}
+
+
+ul {
+  list-style:georgian;
+  font-family: fantasy;
+  font-size: 20px;
+  color: blue;
 }
 
 head {
@@ -54,9 +110,26 @@ table {
   font-weight: bold;
   font-size: 40px;
 }
+/*
+div {
+  text-align: center;
+}*/
 
 div {
   text-align: center;
+  display: block;
+  padding-top: 10;
+  margin: 0 auto;
+}
+
+.nav {
+  font-size: 16px;
+  font-family: serif;
+  background-color: bisque;
+}
+
+.heart {
+  width: 20;
 }
 
 ul {
