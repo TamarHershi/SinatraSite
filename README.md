@@ -33,6 +33,7 @@ The requirements for this wave are:
   - don't use `<br>` tags to separate content; apply `margin` and `padding` where appropriate to space out content.
 
 
+
 ## Wave 3: DRY up your markup by utilizing layouts and ERB
 
 The requirements for this wave are:
