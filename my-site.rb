@@ -17,6 +17,8 @@ class MySite < Sinatra::Base
 
   get "/stickers" do
     @h1 = "Rona Loves Stickers!"
+    @title_array = ["___Theme___", "____color____", "_love measure 1-10_" ]
+    @array_stickers = [["princess", "pink", 9], ["Baloon", "blue with yellow dots", 8.5], ["broken umbrella", "green", 3], ["Hello Kitty", "pink", 10]]
     erb :stickers
   end
 
