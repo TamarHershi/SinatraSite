@@ -159,5 +159,9 @@ footer  {
 }
 
 img {
-  width: 200
+  width: 200;
+}
+
+p{
+  font-size: 19px;
 }

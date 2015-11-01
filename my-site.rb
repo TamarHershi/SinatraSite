@@ -23,9 +23,16 @@ class MySite < Sinatra::Base
   end
 
   get "/about" do
+    bday = Time.new(1984, 9, 28)
+    age = Time.new.year - bday.year
+    fact1 = "I am a mother of two amazing daughers"
+    fact2 = "I am a student in Ada Developer Academy"
+    fact3 = "I hate spiders but love cats"
+    fact4 = "I live in Seattle. I mean Kirkland"
+    fact5 = "I am #{age} years old"
+    @facts_array = [fact1, fact2, fact3, fact4, fact5]
     @h1 = "about"
-    @year = Time.new.year
-    @bday = Time.new(1984, 9, 28)
+
     erb :about
   end
 
