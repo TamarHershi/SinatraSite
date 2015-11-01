@@ -7,8 +7,8 @@ class MySite < Sinatra::Base
   end
 
   get "/candies" do
-    @h1 = "CANDIES!!!"
-    @candies = ["White Chocolate", "Gummi Bear", "Snickers", "Cotton Candy", "Pink Gum", "Caramel Candy", "Peanut butter"]
+    @h1 = "Emily Loves Candies!!!"
+    @candies = ["White Chocolate", "Gummy Bear", "Snickers", "Cotton Candy", "Pink Gum", "Caramel Candy", "Peanut butter"]
     random = rand(7)
     @rand_candy = @candies[random]
     @candies.delete_at(random)
@@ -16,7 +16,7 @@ class MySite < Sinatra::Base
   end
 
   get "/stickers" do
-    @h1 = "Emily Loves Stickers!"
+    @h1 = "Rona Loves Stickers!"
     erb :stickers
   end
 
@@ -48,7 +48,7 @@ class MySite < Sinatra::Base
   end
 
   get "/index" do
-    @h1 ="My Home (Page)"
+    @h1 ="Welcome to our website"
     erb :index
   end
 
