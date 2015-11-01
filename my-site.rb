@@ -26,11 +26,14 @@ class MySite < Sinatra::Base
 
   get "/projects" do
     @h1 = "my projects"
+    @verb=["cook", "build", "make", "create", "throw away", "destroy"]
+    @adjective=["sweet", "beautiful", "ugly", "green", "tall", "wet"]
+    @none=["boat", "table", "diaper", "tv", "pillow", "computer"]
     erb :projects
   end
 
   get "/index" do
-    @h1 ="My Home Page"
+    @h1 ="My Home (Page)"
     erb :index
   end
 
